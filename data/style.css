@@ -1,0 +1,44 @@
+ body > table{
+    width: 50%;
+ }
+
+ table{
+    border-collapse: collapse;
+
+ }
+ table.stdlist{
+    width: 50%;
+ }
+   th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+  }
+  tr:nth-chid(even),table.list thead>tr{
+    background-color: #dddddd;
+  
+
+  }
+  input[type=text], input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  input[type=submit]{
+    width: 100px;
+    padding: 10px 20px ;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius:4px ;
+    cursor: pointer;
+
+  }
+  
